@@ -22,4 +22,4 @@ Also, a key to Shindig Manager is interacting with the products via an externall
 
 Here is the target architecture:
 
-![Conceptual Architecture](docs/Shindig%20Manager%20Conceptual%20Architecture.drawio.png)
+![Conceptual Architecture](Shindig%20Manager%20Conceptual%20Architecture.drawio.png)
