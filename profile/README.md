@@ -15,6 +15,24 @@ While subject to change, here are the products that are the goal of this project
 * **Speaker Profile:** The place for speakers to manage their portfolio and speaking engagements.
 * **External API:** API endpoints to allow access to the data of the products mentioned above.
 
+
+### Shindig Manager Products
+While subject to change, here are the products that are goal of this project:
+
+* **Shindig Manager:** Base web application for the Shindig Manager which will handle authentication and authorizations into the Shindig Manager components.
+* **Event Site:** The landing site for events using Shindig Manager.
+* **Call for Speakers Site:** Call for speakers sites for events using Shindig Manager.
+* **Speaker Profile Manager:** Site for speakers using Shindig Manager to manage their profiles, presentation portfolio, and speaking engagements.
+* **Speaker Profile:** Provides the front-end and back-end services for managing speaker profiles, their presnetation portfolios, and speaking engagements.
+* **Event Management:** Provides the front-end and back-end services for the overall management of events within Shindig Manager.
+* **Session Management:** Provides the front-end and back-end services for the management of sessions for events using Shindig Manager.
+* **Sponsor Management:** Provides the front-end and back-end services for the management of sponsors of events using Shindig Manager.
+* **Attendee Management:** Provides the front-end and back-end services for the management of attendees of events using Shindig Manager.
+* **Social Media Management:** Provides the front-end and back-end services for management of social media for events and speakers using Shindig Manager.
+* **External APIs:** Provides external access to data and services managed by Shindig Manager.
+
+![Shindig Manager Product Structure](ShindigManagerProductStructure.png)
+
 ### Shindig Architecture
 Because Shindig Manager is used for demonstration purposes, it can store its data in either an Azure SQL database or a Cosmos DB Core database.  There might also be work done to keep data in a Cosmos DB Graph (Gremlin) database.  To accomplish this, Shindig Manager will use the Unit of Work and Repository patterns.
 
