@@ -31,7 +31,7 @@ While subject to change, here are the products that are goal of this project:
 * **Social Media Management:** Provides the front-end and back-end services for management of social media for events and speakers using Shindig Manager.
 * **External APIs:** Provides external access to data and services managed by Shindig Manager.
 
-![Shindig Manager Product Structure](ShindigManagerProductStructure.png)
+![Shindig Manager Product Structure](https://github.com/Shindig-Manager/.github/blob/main/profile/ShindigManagerProductStructure.png)
 
 ### Shindig Architecture
 Because Shindig Manager is used for demonstration purposes, it can store its data in either an Azure SQL database or a Cosmos DB Core database.  There might also be work done to keep data in a Cosmos DB Graph (Gremlin) database.  To accomplish this, Shindig Manager will use the Unit of Work and Repository patterns.
