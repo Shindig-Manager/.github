@@ -40,4 +40,4 @@ Also, a key to Shindig Manager is interacting with the products via an externall
 
 Here is the target architecture:
 
-![Conceptual Architecture](Shindig%20Manager%20Conceptual%20Architecture.drawio.png)
+![Conceptual Architecture](https://github.com/Shindig-Manager/.github/blob/main/profile/Shindig%20Manager%20Conceptual%20Architecture.drawio.png)
