@@ -1,43 +1,4 @@
 # Shindig Manager
-Shindig Manager will be a suite of products for the management of events, emphasizing community technology events such as Code PaLOUsa.  There will also be provisions in the suite to allow speakers to manage their speaking portfolio and engagements.
+Shindig Manager will be a suite of products for event managers and speakers.  Emphasizing on community technology events such as [Code PaLOUsa](https://www.codepalousa.com), the event management products will provide tools for the overall management of the event along with speaker, sponsor, and attendee management.  For speakers, there will be the Speaking Engagement Manager which will allow speakers to manage their abstracts and track where those get submitted.  There will also be provisions for showing profile and speaking information on a speaker's website.
 
-While providing essestial services for speakers and events, Shindig Manager will also be used by Chad Green as part of technology and practice demonstrations within event presentations and on [TaleLearnCode](https://twitch.tv/TaleLearnCode).
-
-### Shindig Manager Components
-While subject to change, here are the products that are the goal of this project:
-
-* **Shindig Site:** The landing site for events using Shindig Manager.
-* **Series Site:** The landing page for a series of events to include annual editions.  This will help attendees, speakers, and sponsors to see content from past events.
-* **Organizer Portal:** The administration portal for the event organizers to manage Shindig Manager and all of its components.
-* **Speaker Portal:** The portal used for an event’s speakers to manage their content and participation.
-* **Sponsor Portal:** The portal used for an event’s sponsors to manage their participation in the event.
-* **Attendee Portal:** The portal used for an event’s attendees to manage their attendance.
-* **Speaker Profile:** The place for speakers to manage their portfolio and speaking engagements.
-* **External API:** API endpoints to allow access to the data of the products mentioned above.
-
-
-### Shindig Manager Products
-While subject to change, here are the products that are goal of this project:
-
-* **Shindig Manager:** Base web application for the Shindig Manager which will handle authentication and authorizations into the Shindig Manager components.
-* **Event Site:** The landing site for events using Shindig Manager.
-* **Call for Speakers Site:** Call for speakers sites for events using Shindig Manager.
-* **Speaker Profile Manager:** Site for speakers using Shindig Manager to manage their profiles, presentation portfolio, and speaking engagements.
-* **Speaker Profile:** Provides the front-end and back-end services for managing speaker profiles, their presnetation portfolios, and speaking engagements.
-* **Event Management:** Provides the front-end and back-end services for the overall management of events within Shindig Manager.
-* **Session Management:** Provides the front-end and back-end services for the management of sessions for events using Shindig Manager.
-* **Sponsor Management:** Provides the front-end and back-end services for the management of sponsors of events using Shindig Manager.
-* **Attendee Management:** Provides the front-end and back-end services for the management of attendees of events using Shindig Manager.
-* **Social Media Management:** Provides the front-end and back-end services for management of social media for events and speakers using Shindig Manager.
-* **External APIs:** Provides external access to data and services managed by Shindig Manager.
-
-![Shindig Manager Product Structure](https://stsdpm.blob.core.windows.net/documentation/diagrams/ShindigManagerProductStructure.png)
-
-### Shindig Architecture
-Because Shindig Manager is used for demonstration purposes, it can store its data in either an Azure SQL database or a Cosmos DB Core database.  There might also be work done to keep data in a Cosmos DB Graph (Gremlin) database.  To accomplish this, Shindig Manager will use the Unit of Work and Repository patterns.
-
-Also, a key to Shindig Manager is interacting with the products via an externally available REST API service.  This will allow users to use the backend services to run their sites.
-
-Here is the target architecture:
-
-![Conceptual Architecture](https://stsdpm.blob.core.windows.net/documentation/diagrams/ShindigManager_UnitOfWorkRepository.png)
+While providing essential services for speakers and events, Shindig Manager will also be used by Chad Green as part of technology and practice demonstrations within event presentations on on [TaleLearnCode](https://twitch.tv/TaleLearnCode).
